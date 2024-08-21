@@ -35,9 +35,6 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
 
-   // TimeOfDay ? _startTime;
-   // TimeOfDay ?_endTime;
-   // int ?_hoursBetween;
 
    TimeOfDay ? monstartTime;
    TimeOfDay ?monendTime;
@@ -792,43 +789,12 @@ class _MyHomePageState extends State<MyHomePage> {
 
                 SizedBox(height: 25),
 
-                //
-                // TextField(
-                //   controller: nameController,
-                //   keyboardType: TextInputType.number,
-                //   decoration: InputDecoration(
-                //       label: Text('€ per Hour'),
-                //       border: OutlineInputBorder(
-                //           borderRadius: BorderRadius.circular(21)
-                //       )
-                //   ),
-                // ),
-                //
-                // ElevatedButton(onPressed: (){
-                //   var no1 = int.parse(nameController.text.toString());
-                //   var no2 = int.parse(total as String);
-                //
-                //   var sum = no1*no2;
-                //   result = "€ $sum";
-                //   setState(() {
-                //
-                //   });
-                //
-                // }, child: Text('Calculate')),
-
-
-
-
-
-
-
             Padding(
               padding: const EdgeInsets.all(12.0),
               child: Center(
                 child: AnimatedTextKit(
                   animatedTexts: [
-                    TypewriterAnimatedText('Made with ❤️ by Aalind...... &',textStyle: TextStyle(fontSize: 18),curve: Curves.easeIn,speed: Duration(milliseconds: 80)),
-                //    FadeAnimatedText('I AM PROUD OF YOU 💞',textStyle: TextStyle(fontSize: 18,fontFamily: 'Alkatra'),duration: Duration(seconds: 3),fadeOutBegin: 0.9,fadeInEnd: 0.7),
+                    TypewriterAnimatedText('Made with ❤️ by Aalind',textStyle: TextStyle(fontSize: 18),curve: Curves.easeIn,speed: Duration(milliseconds: 80)),
                   ],
                 ),
               ),

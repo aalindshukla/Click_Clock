@@ -18,7 +18,7 @@ class _SplashScreenState extends State<SplashScreen> {
     Timer(Duration(milliseconds: 2500 ), (){
       Navigator.pushReplacement(
           context,
-          MaterialPageRoute(builder: (context) => MyHomePage(title: 'Hello Sakshi',),
+          MaterialPageRoute(builder: (context) => MyHomePage(title: 'Click Clock',),
           ));
 
     }
@@ -42,15 +42,7 @@ class _SplashScreenState extends State<SplashScreen> {
               ),)),
             ),
             SizedBox(height: 28,),
-            // Center(
-            //   child: AnimatedTextKit(
-            //     animatedTexts: [
-            //       FadeAnimatedText('🎈🥳 HAPPY BIRTHDAY 🥳🎈',textStyle: TextStyle(fontSize: 20,color: Colors.white),
-            //           duration: Duration(seconds: 2),fadeOutBegin: 0.9,fadeInEnd: 0.2),
-            //     ],
-            //   ),
-            //
-            // ),
+
 
 
 
