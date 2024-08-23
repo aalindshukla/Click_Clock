@@ -11,4 +11,6 @@ Data Persistence: Ensures accurate time calculations with reliable data storage.
 # Demo
 
 Check out the video below to see Click Clock in action:
+
+
 https://github.com/user-attachments/assets/fde96cdb-3b2a-4ced-873d-31510b3696cf
