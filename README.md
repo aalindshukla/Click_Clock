@@ -26,3 +26,11 @@ Dart: Programming language for Flutter applications.
 
 ## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
+
+## Contact
+
+Author: Aalind Shukla
+
+Email: iaalindshukla@gmail.com
+
+LinkedIn: https://www.linkedin.com/in/aalind-shukla-087ab9220/
